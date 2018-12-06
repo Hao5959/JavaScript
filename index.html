@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<!-- <link href="style.css" rel="stylesheet" type='css/text'> -->
+	<style type="text/css">
+		
+		div.box {
+			
+			float: left;
+			width: 120px;
+			
+			margin: 0;
+			padding: 0;
+			}
+
+		img {
+			width: 100%;
+		}
+
+		.btn {
+			width: 100%;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<div class='box' id="img-1">
+		<img src="dice-1.png">
+		<button class='btn' onclick="removeElement()">remove</button>
+	</div>
+	<div class='box' id="img-2">
+		<img src="dice-2.png">
+		<button class='btn' onclick="hideElement()">hide</button>
+	</div>
+	<div class='box' >
+		<img src="dice-3.png">
+		<button class='btn' onclick="resetElement()">reset</button>
+	</div>
+
+	<!-- <script type="text/javascript" src="display.js"></script> -->
+	
+		<script>
+		function removeElement(){
+			document.getElementById('img-1').style.display = 'none';
+		}
+		function hideElement(){
+			document.getElementById('img-2').style.visibility = 'hidden';
+		}
+		function resetElement(){
+			document.getElementById('img-1').style.display = 'block';
+			document.getElementById('img-2').style.visibility = 'visible';
+		}
+	</script>	
+</body>
+</html>
