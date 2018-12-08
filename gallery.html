@@ -6,7 +6,7 @@
 		div.gallery {
 			float: left;
 			border: 1px solid #ccc;
-			width: 160px;
+			width: 300px;
 			margin: 5px;
 		}
 		div.gallery:hover {
@@ -20,49 +20,90 @@
 			padding: 5px;
 			text-align: center;
 		}
+		* {
+			box-sizing: border-box;
+		}
+		.responsive {
+			padding: 0px 6px;
+			float: left;
+			width: 24.999%;
+		}
+		@media only screen and (max-width: 700px){
+			.responsive {
+				width: 49.999%;
+				margin: 6px 0;
+			}
+		}
+		@media only screen and (max-width: 500px){
+			.responsive {
+				width: 100%;
+			}
+		}
+		.clearfix:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
 	</style>
 </head>
 <body>
-<div class="gallery">
-	<div>
-		<a target="_blank" href="dice-1.png">
-			<img src="dice-1.png" alt="dice1">
-		</a>
-		<div class="desc">
-			<p>Description of the image here.</p>
-		</div>
-	</div>
-</div>
-<div class="gallery">
-	<div>
-		<a target="_blank" href="dice-2.png">
-			<img src="dice-2.png" alt="dice2">
-		</a>
-		<div class="desc">
-			<p>Description of the image here.</p>
-		</div>
-	</div>
-</div>
-<div class="gallery">
-	<div>
-		<a target="_blank" href="dice-3.png">
-			<img src="dice-3.png" alt="dice3">
-		</a>
-		<div class="desc">
-			<p>Description of the image here.</p>
-		</div>
-	</div>
-</div>
-<div class="gallery">
-	<div>
-		<a target="_blank" href="dice-4.png">
-			<img src="dice-4.png" alt="dice4">
-		</a>
-		<div class="desc">
-			<p>Description of the image here.</p>
-		</div>
-	</div>
-</div>
+<h2>Responsive Image Gallery</h2>
+<h4>Resize the browser window to see the effect.</h4>
 
+<div class="responsive">
+	<div class="gallery">
+		
+			<a target="_blank" href="dice-1.png">
+				<img src="dice-1.png" alt="dice1" width="600" height="400">
+			</a>
+			<div class="desc">
+				Description of the image here.
+			</div>
+		
+	</div>
+</div>
+<div class="responsive">
+	<div class="gallery">
+		
+			<a target="_blank" href="dice-2.png">
+				<img src="dice-2.png" alt="dice2" width="600" height="400">
+			</a>
+			<div class="desc">
+				Description of the image here.
+			</div>
+		
+	</div>
+</div>
+<div class="responsive">
+	<div class="gallery">
+		
+			<a target="_blank" href="dice-3.png">
+				<img src="dice-3.png" alt="dice3" width="600" height="400">
+			</a>
+			<div class="desc">
+				Description of the image here.
+			</div>
+		
+	</div>
+</div>
+<div class="responsive">
+	<div class="gallery">
+		
+			<a target="_blank" href="dice-4.png">
+				<img src="dice-4.png" alt="dice4" width="600" height="400">
+			</a>
+			<div class="desc">
+				Description of the image here.
+			</div>
+		
+	</div>
+</div>
+	
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+</div>
+	
 </body>
 </html>
