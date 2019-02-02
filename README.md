@@ -1,6 +1,3 @@
 # JavaScript
-ES 6
-3. Arrow Function
-
-  
-http://www.thatjsdude.com/interview/js1.html
+A link for some js questions:
+https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions
