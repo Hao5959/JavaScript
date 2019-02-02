@@ -17,3 +17,27 @@
   1.4 不能被重复声明
   
 2. strings
+3. Arrow Function 
+
+  const years = [1990, 1965, 1982, 1937];
+  //ES5
+  var age5 =years.map(function(el) {
+    return 2019 - el;
+  });
+  console.log(age5);
+  
+  //ES6 第一种
+  let age6 = years.map(el => 2019 - el);
+  console.log(age6);
+  
+  //ES6 第二种
+  let age6 = years.map((el, index) => `Age element ${index + 1}: ${2019 - el}. `);
+  console.log(age6);
+  
+  //ES6 第三种
+  let age6 = year.map((el, index) => {
+    const now = new Date.getFullYear();
+    const age = now - el;
+    return `Age element ${index + 1}: ${2019 - el}.`
+  });
+  console.log(age6);
