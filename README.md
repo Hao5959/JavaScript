@@ -1,6 +1,6 @@
 # JavaScript
 
-- [A link for some js questions link] (https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions)
+- [A link for some js questions link](https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions)
 
   # ES 6
   ## 1. let
