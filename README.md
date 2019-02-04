@@ -25,7 +25,8 @@
     
     a = '123';
     console.log(a); //3
-      1.4 不能被重复声明
+      
+  1.4 不能被重复声明
   
   2. strings
   3. Arrow Function 
