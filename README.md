@@ -6,7 +6,7 @@
     <a href='https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions'>
     A link for some js questions
     </a>
-    <h3>Call Stack</h3>
+    <h3>ES 6</h3>
     <p>
     1. let 
       1.1 basic use of let 
