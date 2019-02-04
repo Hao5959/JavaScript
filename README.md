@@ -14,6 +14,7 @@
       1.3 temperate death zone
     ES6 规定，如果区块中存在let和const命令，这些区块对这些命令声明的变量从一开始就形成了封闭的闭合区间。凡是在声明之前使用这些变量就会报错。
     🌰：
+      
     if(true) {
     // TDZ begin
     a = 'abc';      // ReferenceError
