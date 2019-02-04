@@ -1,10 +1,9 @@
 # JavaScript
 
-  <a href='https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions'>   
-  A link for some js questions
-  </a>
-  <h3>ES 6</h3>
-  # 1. let
+- [A link for some js questions] ('https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions')
+
+  # ES 6
+  ## 1. let
     1.1 basic use of let
     1.2 let 不能被提升 
     1.3 temperate death zone 
@@ -24,8 +23,8 @@
 
   1.4 不能被重复声明
 
-# 2. strings
-# 3. Arrow Function 
+## 2. strings
+## 3. Arrow Function 
 
   const years = [1990, 1965, 1982, 1937];
   //ES5
