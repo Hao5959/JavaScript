@@ -2,7 +2,7 @@
 
 - [A link for some js questions link](https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions)
 - [33 must know questions](https://github.com/stephentian/33-js-concepts)
--[leetcode solutions in js](https://github.com/jyxia/LeetCode-JavaScript)
+- [leetcode solutions in js](https://github.com/jyxia/LeetCode-JavaScript)
 # ES 6
 ## 1. let
    #### 1.1 basic use of let
