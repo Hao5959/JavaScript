@@ -1,6 +1,6 @@
 # JavaScript
 
-- [A link for some js questions link](https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions)
+- [A link for some js interview questions](https://github.com/khan4019/front-end-Interview-Questions#javascript-basics-and-tricky-questions)
 - [33 must know questions](https://github.com/stephentian/33-js-concepts)
 - [leetcode solutions in js](https://github.com/jyxia/LeetCode-JavaScript)
 - [you don't know js](https://github.com/getify/You-Dont-Know-JS)
@@ -37,7 +37,7 @@
 
 ## 2. strings
 ## 3. Arrow Function 
-```
+```ES6
   const years = [1990, 1965, 1982, 1937];
   //ES5
   var age5 =years.map(function(el) {
