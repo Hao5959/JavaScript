@@ -4,7 +4,7 @@
 - [33 must know questions](https://github.com/stephentian/33-js-concepts)
 - [leetcode solutions in js](https://github.com/jyxia/LeetCode-JavaScript)
 - [you don't know js](https://github.com/getify/You-Dont-Know-JS)
--[git](http://rogerdudler.github.io/git-guide/index.zh.html)
+- [git](http://rogerdudler.github.io/git-guide/index.zh.html)
 # 33 must know questions for JavaScript
 - Call Stack
 - Primitive Values
