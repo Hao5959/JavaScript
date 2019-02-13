@@ -8,6 +8,12 @@
 # 33 must know questions for JavaScript
 - Call Stack
 - Primitive Values
+- Value Types and Reference Types
+- Implicit, Explicit, Nominal, Structuring and Duck Typing
+- == vs === vs typeof
+- Function Scope, Block Scope and Lexical Scope
+- Expression vs Statement
+- IIFE, Modules and Namespaces
 # ES 6
 ## 1. let
    #### 1.1 basic use of let
